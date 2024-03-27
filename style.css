@@ -15,15 +15,20 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     background-color: gainsboro;
     color: rgb(31, 2, 2);
+    min-width: 40vw;
+    max-width: 90vw;
+}
+
+.bottom-container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(168, 215, 168, 0.886);
+    padding: 20px;
+    margin: 15px;
 }
 .foot-container {
     justify-content: center;
     display: flex;
-    justify-content: space-around;
-}
-.bottom-container {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 40px; margin-right: 40px;
+    justify-content: space-evenly;  
 }
 #profile {
     border-radius: 49%;
@@ -32,7 +37,9 @@ body {
 a.btn {
     height: 50px;
     text-align: center;
+    margin: 5px;
 }
+
 .carousel-item h5 {
     color: black;
 }
